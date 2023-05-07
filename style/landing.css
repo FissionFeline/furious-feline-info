@@ -50,6 +50,10 @@ a {
     display: none;
 }
 
+.hamburger:hover * {
+    background-color: var(--main-color-active);
+}
+
 .bar {
     display: block;
     width: 25px;
